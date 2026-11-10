@@ -1,0 +1,19 @@
+BÉ BÁNH BAO – BUILD STATUS
+
+Source package: created
+Android app source: created
+Mascot asset: created from generated illustration based on the supplied photo
+Learning content modules: created
+Voice input using Android speech recognizer: implemented in source
+Text-to-speech: implemented in source
+AI backend using OpenAI Responses API: created; requires deployment and OPENAI_API_KEY
+GitHub Actions APK workflow: created
+
+APK status: NOT BUILT in this environment.
+Reason: Android SDK and Gradle are not installed here. Source/static checks performed:
+- ZIP integrity: passed
+- AndroidManifest.xml and styles.xml parsing: passed
+- Backend JavaScript syntax check: passed
+- Kotlin source syntax scan: no parser errors found; full compilation/device testing remains outstanding.
+
+Build with Android Studio (Android SDK 35 + JDK 17 + Gradle 8.9) or use .github/workflows/build-apk.yml in GitHub Actions.
